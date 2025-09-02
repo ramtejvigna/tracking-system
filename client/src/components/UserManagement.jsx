@@ -20,7 +20,7 @@ import {
     Loader2
 } from 'lucide-react';
 
-const API_BASE = 'http://localhost:5000/api';
+const API_BASE = 'https://tracking-system-backend-r1jo.onrender.com';
 
 const UserManagement = () => {
     const [users, setUsers] = useState([]);
